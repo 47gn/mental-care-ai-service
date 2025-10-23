@@ -19,7 +19,7 @@ chatForm.addEventListener('submit', async (event) => {
 
     try {
         // Flaskサーバーの/chatエンドポイントにリクエストを送信
-        const response = await fetch('http://127.0.0.1:5000/chat', {
+        const response = await fetch('https://mental-care-ai-service.onrender.com/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
